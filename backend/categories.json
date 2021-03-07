@@ -1,0 +1,301 @@
+[
+    {
+        "title": "Try some Yoga tutorial on Youtube",
+        "parents": "Activities",
+        "type": "indoor"
+    },
+    {
+        "title": "Board games night with family",
+        "parents": "Activities",
+        "type": "indoor"
+    },
+    {
+        "title": "Write letters to your grandparents",
+        "parents": "Activities",
+        "type": "indoor"
+    },
+    {
+        "title": "Watch Harry Potter",
+        "parents": "Activities",
+        "type": "indoor"
+    },
+    {
+        "alias": "fencing",
+        "title": "Try a fencing club",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "axethrowing",
+        "title": "Destress with Axe Throwing",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "arcades",
+        "title": "Throwback to the 2000s with Arcades hall",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "archery",
+        "title": "Learn to Archery like Hawkeye",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "bingo",
+        "title": "Bingo Nights!!",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "festivals",
+        "title": "Find local festivals",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "title": "Learn how to origami",
+        "parents": "Activities",
+        "type": "indoor"
+    },
+    {
+        "alias": "antiques",
+        "title": "Go to an antiques shop",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "burmese",
+        "title": "Try some Burmese food",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "sportsbars",
+        "title": "Try some new sport bar",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "blooddonation",
+        "title": "Donate your blood",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "muaythai",
+        "title": "Learn how to Muay Thai",
+        "parents": "Class",
+        "type": "outdoor"
+    },
+    {
+        "alias": "cardioclasses",
+        "title": "Try a cardio class",
+        "parents": "Class",
+        "type": "outdoor"
+    },
+    {
+        "alias": "artmuseums",
+        "title": "Art Museums",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "farmersmarket",
+        "title": "Go to Farmers Market",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "walkingtours",
+        "title": "Find a free walking tour",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "gardens",
+        "title": "Visit a botanical garden",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "badminton",
+        "title": "Learn how to badminton",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "jazzandblues",
+        "title": "Find a hidden Jazz club",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "animalshelters",
+        "title": "Visit an animal shelter to give love to stray pets",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "farms",
+        "title": "Visit a local farm",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "scuba",
+        "title": "Learn how to scuba diving",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "cookingclasses",
+        "title": "Learn to cook with a real chef",
+        "parents": "Class",
+        "type": "outdoor"
+    },
+    {
+        "alias": "facepainting",
+        "title": "Try face painting",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "cyclingclass",
+        "title": "Cycling Class",
+        "parents": "Class",
+        "type": "outdoor"
+    },
+    {
+        "alias": "korean",
+        "title": "Try Korean Food",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "title": "Movie Night with family",
+        "parents": "Activities",
+        "type": "indoor"
+    },
+    {
+        "title": "Read Harry Potter",
+        "parents": "Activities",
+        "type": "indoor"
+    },
+    {
+        "alias": "libraries",
+        "title": "Visit a library",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "magicians",
+        "title": "Buy ticket to Magic Show",
+        "parents": "Show",
+        "type": "outdoor"
+    },
+    {
+        "alias": "dancestudio",
+        "title": "Try a Dance Class",
+        "parents": "Class",
+        "type": "outdoor"
+    },
+    {
+        "alias": "italian",
+        "title": "Try authentic Italian restaurant",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "driveintheater",
+        "title": "Drive-in movie theater can be fun",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "hiking",
+        "title": "Go Hiking",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "movietheaters",
+        "title": "Movie Date",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "zoos",
+        "title": "Visit local zoo",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "tacos",
+        "title": "Try some taco",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "galleries",
+        "title": "Visit an art museum/gallery",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "landmarks",
+        "title": "Visit a historic landmark",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "winetastingroom",
+        "title": "Wine Tasting",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "indpak",
+        "title": "Try some Indian Food",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "malaysian",
+        "title": "Try some Malaysian Food",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "thai",
+        "title": "Try some Thai Food",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "scavengerhunts",
+        "title": "City Scavenger Hunt Game",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "escapegames",
+        "title": "Book an Escape Room",
+        "parents": "Experiences",
+        "type": "outdoor"
+    },
+    {
+        "alias": "shavedice",
+        "title": "Get some shaved ice",
+        "parents": "Food",
+        "type": "outdoor"
+    },
+    {
+        "alias": "hennaartists",
+        "title": "Try Henna Tatoo",
+        "parents": "Experiences",
+        "type": "outdoor"
+    }
+]
