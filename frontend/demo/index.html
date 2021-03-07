@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./card-stack.css">
+    <link rel="icon" href="beach.svg">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="http://localhost:9000/bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="./card-stack.js"></script>
+
+    <title>Daycation</title>
+</head>
+
+<body>
+    <h1>DAYCATION</h1>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="icon">
+                <img style="z-index: -1; position: relative;" class="mt-50" width="150" height="150" src="nah.png" alt="">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="containter">
+                <!-- <article class="intro">
+                    <p>Swipe Left to reject the sugestion.</p>
+                    <p>Swipe Right to choose the activity.</p>
+                    <p>The app will suggest locations for you using Yelp API.</p>
+                </article> -->
+                <div id="viewport">
+                    <ul class="stack stack-text">
+        
+                        <!-- <li class="activities">
+                            <p>acaibowls</p>
+                            <p>Acai Bowls</p>
+                        </li> -->
+        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="icon">
+                <img style="z-index: -1; position: relative;" class="mt-50" width="200" height="150" src="heart.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" id="modal-btn" class="btn btn-primary hidden" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Recommendations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <div class="container-fluid" id="modal-container">
+                            <!-- <div class="row">
+                                <div class="card col-md-6" style="width: 18rem;">
+                                    <img src="https://s3-media3.fl.yelpcdn.com/bphoto/97_-bk7s2X93Y0Ub914SCw/o.jpg" class="card-img-top mt-1" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">4.5<i class="fas fa-star"></i></p>
+                                    </div>
+                                </div>
+                                <div class="card col-md-6" style="width: 18rem;">
+                                    <img src="https://s3-media3.fl.yelpcdn.com/bphoto/97_-bk7s2X93Y0Ub914SCw/o.jpg" class="card-img-top mt-1" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">4.5<i class="fas fa-star"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="card col-md-6" style="width: 18rem;">
+                                    <img src="https://s3-media3.fl.yelpcdn.com/bphoto/97_-bk7s2X93Y0Ub914SCw/o.jpg" class="card-img-top mt-1" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">4.5<i class="fas fa-star"></i></p>
+                                    </div>
+                                </div>
+                                <div class="card col-md-6" style="width: 18rem;">
+                                    <img src="https://s3-media3.fl.yelpcdn.com/bphoto/97_-bk7s2X93Y0Ub914SCw/o.jpg" class="card-img-top mt-1" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">4.5<i class="fas fa-star"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="card col-md-6" style="width: 18rem;">
+                                    <img src="https://s3-media3.fl.yelpcdn.com/bphoto/97_-bk7s2X93Y0Ub914SCw/o.jpg" class="card-img-top mt-1" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">4.5<i class="fas fa-star"></i></p>
+                                    </div>
+                                </div>
+                                <div class="card col-md-6" style="width: 18rem;">
+                                    <img src="https://s3-media3.fl.yelpcdn.com/bphoto/97_-bk7s2X93Y0Ub914SCw/o.jpg" class="card-img-top mt-1" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">4.5<i class="fas fa-star"></i></p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
