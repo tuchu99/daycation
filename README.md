@@ -12,12 +12,13 @@ Therefore, Daycation was born.
 ## What it does
 Counting on human' spontaneousness, Daycation only shows people only 1 suggestion at a time. Imagine Tinder but for activities. On Tinder, we swipe left or right based on our subconscious feelings. By suggesting only 1 activity at a time, we eliminate doubts and uncertainty in human' behaviour when making decision.
 
-<b>Daycation helps people find activities to do and suggests real location to go. <br />Keeping safety in mind, our database only recommends suitable activites for social distancing.</b>
+**Daycation helps people find activities to do and suggests real location to go. <br />Keeping safety in mind, our database only recommends suitable activites for social distancing.**
 
 <br />
 
 ## How we built it
 We use the decoupled architecture with NodeJS serving as the backend and simple HTML, CSS, JS as the frontend. We also use Yelp API for suggesting locations.
+We also utilizing the [swipeable interface by Gajus](https://github.com/gajus/swing).
 
 <br />
 
