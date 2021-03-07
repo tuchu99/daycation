@@ -1,5 +1,7 @@
-# Daycation
-Day + Vacation = Daycation
+# Day + Vacation = Daycation
+
+[![Watch the video](https://i.imgur.com/OBhBemU.jpg)](https://youtu.be/mDYH4TSQyaI)
+Click image for demo
 
 <br />
 
