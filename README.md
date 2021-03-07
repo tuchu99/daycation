@@ -29,3 +29,4 @@ The app is simple yet useful in making people's lives more fun!
 
 ## What's next for Daycation
 Deployment as a mobile app will be the next goal.
+We also want to make improvement in UI design and suggestion algorithm. 
