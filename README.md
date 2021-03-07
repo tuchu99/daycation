@@ -24,8 +24,8 @@ We also utilize the [swipeable interface by Gajus](https://github.com/gajus/swin
 
 <br />
 
-## Accomplishments that we're proud of
-The app is simple yet useful in making people's lives more fun!
+## Challenges
+Availability: Some categories might not be available for certain locations.
 
 <br />
 
